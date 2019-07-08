@@ -1,0 +1,26 @@
+/* .main-section{
+    display: flex;
+    flex-direction: row;
+} */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:100vw;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+
+}
+
+.searchbar{
+    
+}
+
+.fa-youtube {
+    color:red;
+}
