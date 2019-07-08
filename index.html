@@ -1,38 +1,88 @@
 <!DOCTYPE html>
-    <head>
-            <script src="https://use.fontawesome.com/8dd4bb858f.js"></script>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>YouTube</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <nav>
-            <div>
-                <img src="Assets/Navbar/yt-logo.png"/>
-            </div>
-            <div>
-            <input> 
-                
-            </input>
-            </div>
-            <div>
-                <button>
-                        <i class="fas fa-syringe"></i>
-                        <img src="Assets/Navbar/search-icon.png"/>
-                </button>
-                <div class="right-nav">
-                    <img src="Assets/Navbar/add-videoicon.png"/>
-                    <img src="Assets/Navbar/gallery_2-512.png"/>
-                    <img src="Assets/Navbar/camera-icon.png"/>
-                </div>
 
-                
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>YouTube</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e6d0becbe7.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-item logo-container">
+            <i class="fab fa-youtube"></i>
+                <span>YouTube</span>
+        </div>
+        <div class="nav-item searchbar">
+            <input type="text" placeholder="Search">
+                    <button type="submit">
+                <i class="fas fa-search nav-icons"></i>
+            </button>
+        </div>
+            <div class="nav-item right-nav">
+                <i class="fas fa-video-slash nav-icons"></i>
+                <i class="fab fa-intercom nav-icons"></i>
+                <i class="fas fa-reply-all nav-icons"></i>
             </div>
-        </nav>
 
-        
 
-    </body>
+        </div>
+        <hr>
+    </hr>
+    <div class="content">
+    <section class="main-section">
+        <div class="video">
+            <embed>
+            <iframe width="900" height="506" src="https://www.youtube.com/embed/cwDqjmSmtMQ" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </embed>
+            <h2>Programming in Visual Basic .Net How to Connect Access Database to VB.Net
+            </h2>
+            <div>
+            	<span>14,156,333</span><i class="far fa-thumbs-up"></i>
+            	<span>7.3K</span>
+                <i class="far fa-thumbs-down"></i>
+                <span>1K</span>
+                <span><button class="share-button"><i class="fas fa-share"></i></button></span>
+                <span>Share</span>
+                <i class="fas fa-upload"></i>
+                <span>Upload</span>
+                <i class="far fa-comment-dots"></i>
+            </div>
+            <div class="avatar-section">
+                <img class="avatar" src="Assets\Video\avatar.jpg">
+                <button class="avatar-button">SUBSCRIBE 22K</button>
+            </div>
+        </div>
+
+    </section>
+    <section class="sidebar">
+        <div class="thumbnail">
+            <img src="Assets/sidebar/thumbnail-1.jpg" />
+            <p>Ed Sheeran - Beautiful People (Live At Abbey Road)</p>
+            <p>22,000 Views</p>
+        </div>
+        <div class="thumbnail">
+            <img src="Assets/sidebar/thumbnail-2.jpg" />
+            <p>Anime - Anime thumbnail</p>
+            <p>15,330 Views</p>
+        </div>
+        <div class="thumbnail">
+            <img src="Assets/sidebar/thumbnail-3.jpg" />
+            <p>The Simpsons - Maggie</p>
+            <p>12,210 Views</p>
+        </div>
+
+    </section>
+</div>
+
+
+
+</body>
+
 </html>

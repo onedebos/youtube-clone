@@ -1,0 +1,114 @@
+ *{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    max-width:100vw;
+}
+
+.nav-item span{
+font-size: 30px;
+font-weight: 700;
+
+}
+
+.searchbar input{
+padding-right:5em;
+padding-top:1em;
+
+
+}
+
+.nav-item button{
+    margin-top:-0.2em;
+    padding:0.5em 2em;
+    background-color:#f8f8f8;
+    border:0.2px solid #838383;
+    font-size:16px;
+    margin-top:8px;
+    
+
+}
+
+.fa-search{
+    font-size:0.9em;
+    color:#838383;
+}
+
+.searchbar input[type=text]{
+    float: left;
+    padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid black;
+  width:500px;
+}
+
+.fa-video-slash,.fa-intercom,.fa-reply-all{
+    color:#606060;
+    margin:10px;
+    font-size:2em;
+}
+.fa-youtube {
+    font-size:3em;
+    color:red;
+}
+
+hr{
+    height:5px;
+    background-color:#1111111a;
+    margin-bottom:2em;
+}
+.content{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: space-evenly;
+
+}
+.main-section{
+/*	margin-left: 40vw;
+  	transform: translate(-50%);
+*/}
+
+.fa-thumbs-up,.fa-thumbs-down,.fa-upload,.fa-comment-dots{
+	font-size: 2em;
+	color:#838383;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.share-button{
+	font-size: 2em;
+	color:#838383;
+	margin-right: 10px;
+	margin-left: 10px;
+	border:none;
+	background-color:#fff;
+
+}
+.avatar{
+	border-radius: 50%;
+}
+.avatar-section{
+	display: flex;
+	justify-content: space-between;
+}
+.avatar-button{
+	background-color: red;
+	color:#fff;
+	padding-right:20px;
+	padding-left:20px;
+	padding-top: 0px;
+	padding-bottom: 0px; 
+	border: none;
+	height: 40px;
+	width: 150px;
+ 
+}
