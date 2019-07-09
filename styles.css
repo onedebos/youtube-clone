@@ -62,7 +62,7 @@ padding-top:1em;
     color:red;
 }
 
-hr{
+.line{
     height:5px;
     background-color:#1111111a;
     margin-bottom:2em;
@@ -73,10 +73,6 @@ hr{
   	justify-content: space-evenly;
 
 }
-.main-section{
-/*	margin-left: 40vw;
-  	transform: translate(-50%);
-*/}
 
 .fa-thumbs-up,.fa-thumbs-down,.fa-upload,.fa-comment-dots{
 	font-size: 2em;
