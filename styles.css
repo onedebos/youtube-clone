@@ -68,43 +68,43 @@ padding-top:1em;
     margin-bottom:2em;
 }
 .content{
-	display: flex;
-  	flex-direction: row;
-  	justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
 }
 
 .fa-thumbs-up,.fa-thumbs-down,.fa-upload,.fa-comment-dots{
-	font-size: 2em;
-	color:#838383;
-	margin-right: 10px;
-	margin-left: 10px;
+    font-size: 2em;
+    color:#838383;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .share-button{
-	font-size: 2em;
-	color:#838383;
-	margin-right: 10px;
-	margin-left: 10px;
-	border:none;
-	background-color:#fff;
+    font-size: 2em;
+    color:#838383;
+    margin-right: 10px;
+    margin-left: 10px;
+    border:none;
+    background-color:#fff;
 
 }
 .avatar{
-	border-radius: 50%;
+    border-radius: 50%;
 }
 .avatar-section{
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .avatar-button{
-	background-color: red;
-	color:#fff;
-	padding-right:20px;
-	padding-left:20px;
-	padding-top: 0px;
-	padding-bottom: 0px; 
-	border: none;
-	height: 40px;
-	width: 150px;
+    background-color: red;
+    color:#fff;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top: 0px;
+    padding-bottom: 0px; 
+    border: none;
+    height: 40px;
+    width: 150px;
  
 }
